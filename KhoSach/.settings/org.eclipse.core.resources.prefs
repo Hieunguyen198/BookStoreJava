@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebContent/Footer.jsp=UTF-8
+encoding//WebContent/HeaderTrangChu.jsp=UTF-8
+encoding//WebContent/admin/Nav.jsp=UTF-8
+encoding//WebContent/css/css.css=UTF-8
+encoding//WebContent/css/style.css=UTF-8
+encoding//src/controller/XuLySuaSachServlet.java=UTF-8
+encoding//src/controller/XuLyThemSachServlet.java=UTF-8
+encoding//src/model/bean/ChiTietHoaDonBEAN.java=UTF-8
+encoding//src/model/bean/KhachHangBEAN.java=UTF-8
+encoding//src/model/bean/SachBEAN.java=UTF-8
+encoding//src/model/dao/SachDAO.java=UTF-8
+encoding/<project>=UTF-8

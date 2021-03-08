@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+
+
+  <servlet>
+    <servlet-name>DangNhapAdminSevlet</servlet-name>
+    <servlet-class>controller.DangNhapAdminSevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DangNhapAdminSevlet</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TrangChuServlet</servlet-name>
+    <servlet-class>controller.TrangChuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrangChuServlet</servlet-name>
+    <url-pattern></url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SachTheoTheLoaiServlet</servlet-name>
+    <servlet-class>controller.SachTheoTheLoaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SachTheoTheLoaiServlet</servlet-name>
+    <url-pattern>/Sach</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+    <servlet-name>DanhSachSachTimKiemServlet</servlet-name>
+    <servlet-class>controller.DanhSachSachTimKiemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DanhSachSachTimKiemServlet</servlet-name>
+    <url-pattern>/Timkiem</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ChiTietSanPhamServlet</servlet-name>
+    <servlet-class>controller.ChiTietSanPhamServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChiTietSanPhamServlet</servlet-name>
+    <url-pattern>/Chitietsanpham</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ShowThongTinKhachHangServlet</servlet-name>
+    <servlet-class>controller.ShowThongTinKhachHangServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowThongTinKhachHangServlet</servlet-name>
+    <url-pattern>/Thongtincanhan</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>GioHangServlet</servlet-name>
+    <servlet-class>controller.GioHangServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GioHangServlet</servlet-name>
+    <url-pattern>/Giohang</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>DatHangServlet</servlet-name>
+    <servlet-class>controller.DatHangServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DatHangServlet</servlet-name>
+    <url-pattern>/Dathang</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
